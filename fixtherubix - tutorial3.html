@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width", initial-scale="1.0">
+    <title>Fix The Rubix</title>
+    <link rel="stylesheet" href="webstyle.css">
+    <script src="webstyle.js"></script>
+</head>
+<body>
+    <div class="box-area">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="fixtherubix - home.html">Fix The Rubix!</a>
+                    <img src="images/logo.png">
+                </div>
+                <nav>
+                    <a href="fixtherubix - home.html">Home</a>
+                    <a href="fixtherubix - tutorial1.html">Tutorials</a>
+                    <a href="fixtherubix - about us.html">About Us</a>
+                    <a href="fixtherubix - contacts.html">Contacts</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="topnav">
+        <a class="section" href="fixtherubix - tutorial1.html">Colors & Color Orientation</a>
+        <a class="section" href="fixtherubix - tutorial2.html">Notations</a>
+        <a class="section active" href="fixtherubix - tutorial3.html">First Layer: The Cross</a>
+        <a class="section" href="fixtherubix - tutorial4.html">First Layer: Corners</a>
+        <a class="section" href="fixtherubix - tutorial5.html">Middle Layer</a>
+        <a class="section" href="fixtherubix - tutorial6.html">Orientation of Last Layer</a>
+        <a class="section" href="fixtherubix - tutorial7.html">Permutation of Last Layer</a>
+    </div>
+    <div class="text-area2">
+        <p>
+            The easiest step is solving the first layer edges of the Rubik's Cube. Choose one color you want to start with. Beginners usually start with a white cross.
+            The color of the center pieces, which never switch positions, can help you figure out where a piece belongs. 
+            Every edge must also be able to fit into the side center piece.
+            The goal is to get the first edge in the appropriate place, orientated correctly, 
+            and then go on to the second piece without messing up the one you've already solved. 
+            When you solve the fourth, you must be careful not to jumble up the three previously solved pieces, as the puzzle becomes increasingly difficult.
+        </p>
+        <br>
+        <p style="position: relative; top: 600px;">
+            The most complicated case is when three edges are done and the last one is oriented wrong. 
+            This is the fastest way to flip an edge: <b>F</b> takes the edge to the equator, <b>U'</b> moves the empty spot in place, <b>R</b> moves the edge up in the top again, now well-oriented, <b>U</b> restores the position. 
+            Another tricky situation is when the last white edge is on the front face but you can't just simply move it to the top because it would end up facing in the wrong direction. We can use the previous trick starting with a double front turn:
+            F2 followed by (<b>F U' R U</b>), which gives <b>F' U' R U</b> because three quater turns of a face in one direction is in fact a reverse rotation. Similar to the previous cases, sometimes you find the last edge in the second layer oriented wrong.
+        </p>
+    </div>
+    <img src="images/cross1.png" alt="good cross" style="width: 25%; position: relative; bottom: 350px; right: 200px; border-style: solid; border-radius: 10px;">
+    <img src="images/cross2.png" alt="bad cross" style="width: 25%; position: relative; bottom: 350px; left: 200px; border-style: solid; border-radius: 10px;">
+    
+<footer style="position: relative; top: 500px;">
+    <p>Copyright &copy;2021 | Fix The Rubix.</p>
+</footer>
+</body>
+</html>
